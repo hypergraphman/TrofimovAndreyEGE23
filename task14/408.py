@@ -2,7 +2,7 @@ def n_to_4(n):
     res = ''
     while n > 0:
         res = '0123'[n % 4] + res
-        n //= 4
+        n = n // 4
     return res
 
 
